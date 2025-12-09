@@ -1,0 +1,10 @@
+C:\Users\hdner\Documents\testes\teste_ga\teste_ga\bin\Debug\teste_ga.exe.config
+C:\Users\hdner\Documents\testes\teste_ga\teste_ga\bin\Debug\teste_ga.exe
+C:\Users\hdner\Documents\testes\teste_ga\teste_ga\bin\Debug\teste_ga.pdb
+C:\Users\hdner\Documents\testes\teste_ga\teste_ga\obj\Debug\teste_ga.csproj.AssemblyReference.cache
+C:\Users\hdner\Documents\testes\teste_ga\teste_ga\obj\Debug\teste_ga.Form1.resources
+C:\Users\hdner\Documents\testes\teste_ga\teste_ga\obj\Debug\teste_ga.Properties.Resources.resources
+C:\Users\hdner\Documents\testes\teste_ga\teste_ga\obj\Debug\teste_ga.csproj.GenerateResource.cache
+C:\Users\hdner\Documents\testes\teste_ga\teste_ga\obj\Debug\teste_ga.csproj.CoreCompileInputs.cache
+C:\Users\hdner\Documents\testes\teste_ga\teste_ga\obj\Debug\teste_ga.exe
+C:\Users\hdner\Documents\testes\teste_ga\teste_ga\obj\Debug\teste_ga.pdb
