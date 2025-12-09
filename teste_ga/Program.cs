@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using teste_ga.Models;
 
 namespace teste_ga
 {
@@ -11,6 +13,7 @@ namespace teste_ga
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
+        
         [STAThread]
         static void Main()
         {

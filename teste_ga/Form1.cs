@@ -8,6 +8,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using teste_ga.Misc;
 using teste_ga.Models;
 using teste_ga.Validation;
 
@@ -20,16 +21,15 @@ namespace teste_ga
             InitializeComponent();
         }
 
-        BindingList<Funcionario> listaFuncionarios = new BindingList<Funcionario>();
+        
 
-        private string idEmEdicao = null;
 
         private bool ValidName(string nome)
         {
             return Regex.IsMatch(nome, @"^[A-Za-zÀ-ÖØ-öø-ÿ\s]+$");
         }
 
-
+        
         private void ClearFields()
         {
             txtNomeCompleto.Text = maskedTxtCPF.Text = "";
@@ -43,7 +43,23 @@ namespace teste_ga
         private void LoadData()
         {
             dataVisualizacao.DataSource = null;
-            dataVisualizacao.DataSource = listaFuncionarios;
+            dataVisualizacao.DataSource = Globals.listaFuncionarios;
+        }
+
+        private Funcionario GetFuncionario()
+        {
+            var func = Globals.listaFuncionarios.FirstOrDefault(f => f.Id == Globals.idEmEdicao);
+            return func;
+        }
+        private void SetFuncionario()
+        {
+            var func = GetFuncionario();
+            txtNomeCompleto.Text = func.Nome;
+            maskedTxtCPF.Text = func.CPF;
+            cbmBoxCargo.SelectedItem = func.Cargo;
+            DTPdataNascimento.Value = func.DataNascimento ;
+            idLbl.Text = $"Id: {Globals.idEmEdicao}";
+            btnSalvar.Text = "Editar";
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -51,7 +67,10 @@ namespace teste_ga
             DTPdataNascimento.Format = DateTimePickerFormat.Custom;
             DTPdataNascimento.CustomFormat = "dd/MM/yyyy";
             cbmBoxCargo.Items.AddRange(new string[] { "Analista", "Desenvolvedor", "Gerente" });
-
+            if (Globals.idEmEdicao != null)
+            {
+                SetFuncionario();
+            }
             LoadData();
         }
 
@@ -98,7 +117,7 @@ namespace teste_ga
                     func.Cargo = cbmBoxCargo.SelectedItem.ToString();
                     func.DataNascimento = DTPdataNascimento.Value.Date;
 
-                    listaFuncionarios.Add(func);
+                    Globals.listaFuncionarios.Add(func);
 
                     LoadData();
                     ClearFields();
@@ -109,7 +128,7 @@ namespace teste_ga
                 }
                 else
                 {
-                    var func = listaFuncionarios.FirstOrDefault(f => f.Id == idEmEdicao);
+                    var func = Globals.listaFuncionarios.FirstOrDefault(f => f.Id == Globals.idEmEdicao);
                     if (func != null)
                     {
                         func.Nome = txtNomeCompleto.Text;
@@ -119,7 +138,7 @@ namespace teste_ga
                     }
                     LoadData();
                     ClearFields();
-                    idEmEdicao = null;
+                    Globals.idEmEdicao = null;
                     btnSalvar.Text = "Salvar";
                     btnDeletar.Enabled = false;
                     MessageBox.Show("Funcionário Editado com Sucesso",
@@ -143,21 +162,24 @@ namespace teste_ga
         {
             if (dataVisualizacao.CurrentRow.Index != -1)
             {
-                btnSalvar.Text = "Editar";
-                btnDeletar.Enabled = true;
-                idEmEdicao = dataVisualizacao.CurrentRow.Cells["Id"].Value.ToString();
-                idLbl.Text = "Id: " + idEmEdicao;
-                idLbl.Visible = true;
-                txtNomeCompleto.Text = dataVisualizacao.CurrentRow.Cells["Nome"].Value.ToString();
-                maskedTxtCPF.Text = dataVisualizacao.CurrentRow.Cells["CPF"].Value.ToString();
-                cbmBoxCargo.SelectedItem = dataVisualizacao.CurrentRow.Cells["Cargo"].Value.ToString();
-                DTPdataNascimento.Value = Convert.ToDateTime(dataVisualizacao.CurrentRow.Cells["DataNascimento"].Value);
+
+                if (dataVisualizacao.CurrentRow.Cells["Id"].Value != null)
+                {
+                    Globals.idEmEdicao = dataVisualizacao.CurrentRow.Cells["Id"].Value.ToString();
+                    SetFuncionario();
+                }
+                else
+                {
+                    MessageBox.Show("Nenhum funcionário selecionado", "Aviso",
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Warning);
+                }
             }
         }
 
         private void btnDeletar_Click(object sender, EventArgs e)
         {
-            if (idEmEdicao == null)
+            if (Globals.idEmEdicao == null)
             {
                 MessageBox.Show("Selecione um funcionário para deletar.");
                 return;
@@ -172,14 +194,14 @@ namespace teste_ga
 
             if (resultado == DialogResult.Yes)
             {
-                var funcionario = listaFuncionarios.FirstOrDefault(f => f.Id == idEmEdicao);
+                var funcionario = Globals.listaFuncionarios.FirstOrDefault(f => f.Id == Globals.idEmEdicao);
 
                 if (funcionario != null)
                 {
-                    listaFuncionarios.Remove(funcionario);
+                    Globals.listaFuncionarios.Remove(funcionario);
                     LoadData();
                     ClearFields();
-                    idEmEdicao = null;
+                    Globals.idEmEdicao = null;
 
                     MessageBox.Show("Funcionário deletado com sucesso!");
                 }
@@ -188,6 +210,15 @@ namespace teste_ga
             {
                 MessageBox.Show("A exclusão foi cancelada.");
             }
+        }
+
+        private void btnCalculoImposto_Click(object sender, EventArgs e)
+        {
+            Form form = new Form2();
+
+            form.Show();
+
+            this.Hide();
         }
     }
 }

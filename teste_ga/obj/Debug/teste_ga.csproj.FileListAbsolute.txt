@@ -8,3 +8,5 @@ C:\Users\hdner\Documents\testes\teste_ga\teste_ga\obj\Debug\teste_ga.csproj.Gene
 C:\Users\hdner\Documents\testes\teste_ga\teste_ga\obj\Debug\teste_ga.csproj.CoreCompileInputs.cache
 C:\Users\hdner\Documents\testes\teste_ga\teste_ga\obj\Debug\teste_ga.exe
 C:\Users\hdner\Documents\testes\teste_ga\teste_ga\obj\Debug\teste_ga.pdb
+C:\Users\hdner\Documents\testes\teste_ga\teste_ga\obj\Debug\teste_ga.Form2.resources
+C:\Users\hdner\Documents\testes\teste_ga\teste_ga\obj\Debug\teste_ga.Form3.resources
