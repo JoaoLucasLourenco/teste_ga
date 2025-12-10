@@ -132,7 +132,7 @@ namespace teste_ga
             {
                 decimal salario = Convert.ToDecimal(txtSalario.Text);
                 decimal imposto = 0.0m;
-
+                somaImposto = 0.0m;
                 btnSalvarCalculo.Enabled = true;
 
                 if (salario <= Globals.IR_Limites[0])
