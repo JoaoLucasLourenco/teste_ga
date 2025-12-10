@@ -3,31 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\hdner\\Documents\\testes\\teste_ga\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|C:\\Users\\hdner\\Documents\\testes\\teste_ga\\teste_ga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|solutionrelative:teste_ga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|c:\\users\\hdner\\documents\\testes\\teste_ga\\teste_ga\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|solutionrelative:teste_ga\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|c:\\users\\hdner\\documents\\testes\\teste_ga\\teste_ga\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|C:\\Users\\hdner\\Documents\\testes\\teste_ga\\teste_ga\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|solutionrelative:teste_ga\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|c:\\users\\hdner\\documents\\testes\\teste_ga\\teste_ga\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|C:\\Users\\hdner\\Documents\\testes\\teste_ga\\teste_ga\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|solutionrelative:teste_ga\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|c:\\users\\hdner\\documents\\testes\\teste_ga\\teste_ga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|solutionrelative:teste_ga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|c:\\users\\hdner\\documents\\testes\\teste_ga\\teste_ga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|C:\\Users\\hdner\\Documents\\testes\\teste_ga\\teste_ga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|solutionrelative:teste_ga\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|c:\\users\\hdner\\documents\\testes\\teste_ga\\teste_ga\\models\\impostofuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|C:\\Users\\hdner\\Documents\\testes\\teste_ga\\teste_ga\\models\\impostofuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|solutionrelative:teste_ga\\models\\impostofuncionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|c:\\users\\hdner\\documents\\testes\\teste_ga\\teste_ga\\misc\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|C:\\Users\\hdner\\Documents\\testes\\teste_ga\\teste_ga\\misc\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1B10802-8348-4573-962D-716457057137}|teste_ga\\teste_ga.csproj|solutionrelative:teste_ga\\misc\\globals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -54,8 +54,7 @@
               "RelativeToolTip": "teste_ga\\Misc\\Globals.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T18:47:07.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T18:47:07.965Z"
             },
             {
               "$type": "Document",
@@ -67,12 +66,11 @@
               "RelativeToolTip": "teste_ga\\Models\\ImpostoFuncionario.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T18:28:05.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T18:28:05.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\hdner\\Documents\\testes\\teste_ga\\teste_ga\\Form3.cs",
               "RelativeDocumentMoniker": "teste_ga\\Form3.cs",
@@ -85,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "C:\\Users\\hdner\\Documents\\testes\\teste_ga\\teste_ga\\Form3.cs",
               "RelativeDocumentMoniker": "teste_ga\\Form3.cs",
@@ -97,13 +95,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\hdner\\Documents\\testes\\teste_ga\\teste_ga\\Form2.cs",
               "RelativeDocumentMoniker": "teste_ga\\Form2.cs",
               "ToolTip": "C:\\Users\\hdner\\Documents\\testes\\teste_ga\\teste_ga\\Form2.cs",
               "RelativeToolTip": "teste_ga\\Form2.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAwwIAAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAcwIYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T14:29:21.944Z",
               "EditorCaption": ""
@@ -122,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\hdner\\Documents\\testes\\teste_ga\\teste_ga\\Form1.cs",
               "RelativeDocumentMoniker": "teste_ga\\Form1.cs",
@@ -130,8 +128,7 @@
               "RelativeToolTip": "teste_ga\\Form1.cs",
               "ViewState": "AgIAALgAAAAAAAAAAAAkwNMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T17:13:04.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T17:13:04.654Z"
             },
             {
               "$type": "Document",
@@ -142,8 +139,7 @@
               "ToolTip": "C:\\Users\\hdner\\Documents\\testes\\teste_ga\\teste_ga\\Form1.cs [Design]",
               "RelativeToolTip": "teste_ga\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-08T17:00:07.919Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-08T17:00:07.919Z"
             }
           ]
         }
